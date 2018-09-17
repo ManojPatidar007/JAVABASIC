@@ -1,0 +1,17 @@
+package com.mp;
+
+import java.io.IOException;
+
+public class Student{
+	public void showStudent()throws studentNotFound, IOException{
+		
+		
+			throw new  NullPointerException();
+		
+		
+	};
+
+	
+	
+	
+}

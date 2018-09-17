@@ -1,0 +1,21 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+<bean id="dateFormate" class="java.text.SimpleDateFormat">
+
+<!--first way to parse date -->
+<constructor-arg value="yyyy/MM/dd"></constructor-arg>
+</bean>
+	<bean id="customer" class="com.mp.Customer">
+		<property name="date">
+		<bean factory-bean="dateFormate" factory-method="parse">
+		<constructor-arg value="2019/03/18"></constructor-arg>
+		</bean>
+		</property>
+	</bean>
+	<bean id="exdate" class="com.mp.ExDate">
+	<constructor-arg ref="customer"></constructor-arg>
+	</bean>
+
+</beans>

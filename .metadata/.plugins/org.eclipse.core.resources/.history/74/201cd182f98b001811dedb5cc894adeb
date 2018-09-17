@@ -1,0 +1,74 @@
+package abcd;
+
+class StudentDao implements Comparable<StudentDao>{
+	int id;
+	String name;
+	int sem;
+	int marks;
+	String cld;
+	StudentException pass;
+	
+	public StudentDao(){}
+	public StudentDao(int id, String name, int sem) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.sem = sem;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getSem() {
+		return sem;
+	}
+	public void setSem(int sem) {
+		this.sem = sem;
+	}
+	public int getMarks() {
+		return marks;
+	}
+	public void setMarks(int marks) {
+		StudentException.setPassed(new StudentDao());
+		this.marks = marks;
+	}
+	public String getCld() {
+		return cld;
+	}
+	public void setCld(String cld) {
+		this.cld = cld;
+	}
+	
+	public StudentException getPass() {
+		return pass;
+	}
+	public void setPass(StudentException pass) {
+		this.pass = pass;
+	}
+	
+	@Override
+	public String toString() {
+		return "StudentDao [name=" + name + ", id=" + id + ", sem=" + sem + ", marks=" + marks + ", cld=" + cld + "]";
+	}
+
+	@Override
+	public int compareTo(StudentDao o) {
+		if(id>o.id){
+			return 1;
+		}
+		else if(id<o.id){
+			return -1;
+		}
+		else
+		return 0;
+	}
+
+}

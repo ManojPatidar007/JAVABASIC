@@ -1,0 +1,14 @@
+package com.mp;
+
+import com.mp.arraylist.ArrayListPro;
+
+public class App {
+
+	public static void main(String[] args) {
+		ArrayListPro pro=new ArrayListPro(101,"hello","abc");
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

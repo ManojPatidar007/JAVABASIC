@@ -1,0 +1,40 @@
+package com.mp.arraylist;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import com.mp.dao.Student;
+
+public class ArrayListPro{
+	public static ArrayList<Student> list=new ArrayList<>();
+	public ArrayListPro() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public ArrayListPro(int id,String name,String clg){
+		Student s=new Student();
+		s.setId(id);
+		s.setClg(clg);
+		s.setName(name);
+		list.add(s);
+	}
+	
+	public void show(){
+		Iterator ir=this.list.iterator();
+		while(ir.hasNext()){
+			Student s=(Student) ir.next();
+			System.out.println("ID="+s.getId()+" name="+s.getName()+" clg="+s.getClg());
+		}
+		//list.
+	}
+	public void showID(){
+		Iterator ir=this.list.iterator();
+		//while(ir.hasNext()){
+			//Student s=(Student) ir.next();
+			System.out.println("ID="+this.getId()+" name="+this.getName()+" clg="+this.getClg());
+		
+		//this.getId();
+		//list.
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.mp;
+
+public class App {
+	public static void main(String ar[]) throws studentNotFound{
+Student s=new Student();
+try{
+s.showStudent();}
+catch(Exception e){
+	//e.printStackTrace(PrintStream a);
+}
+}
+}

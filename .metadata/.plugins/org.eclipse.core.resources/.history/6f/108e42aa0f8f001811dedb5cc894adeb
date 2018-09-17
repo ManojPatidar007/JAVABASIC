@@ -1,0 +1,8 @@
+package com.mp;
+
+public class App {
+	public static void main(String ar[]){
+Student s=new Student();
+s.showStudent();
+}
+}

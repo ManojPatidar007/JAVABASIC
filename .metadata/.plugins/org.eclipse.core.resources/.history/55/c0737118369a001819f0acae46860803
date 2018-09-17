@@ -1,0 +1,28 @@
+package com.mp;
+
+import java.util.*;
+
+import com.mp.dao.Student;
+
+public class HashcodeEqual {
+
+	public static void main(String[] args) {
+HashcodeEqual E=new HashcodeEqual();
+HashcodeEqual E1=new HashcodeEqual();
+		ArrayList<Integer> list1=new ArrayList<>();
+		List<Integer> list3=new LinkedList<>();
+		Map<Integer,String> m=new HashMap();
+		TreeSet<Integer> t=new TreeSet<Integer>();
+		//list1.add(10);
+		//list3.add(100);
+		System.out.println(list1.hashCode());
+		System.out.println(list3.hashCode());
+		System.out.println(t.hashCode());
+		System.out.println(m.equals(t));
+		
+	//	System.out.println(E1.hashCode());
+		//System.out.println(E.hashCode());
+
+	}
+
+}

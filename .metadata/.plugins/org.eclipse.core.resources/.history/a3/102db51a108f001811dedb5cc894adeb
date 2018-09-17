@@ -1,0 +1,20 @@
+package com.mp;
+
+import java.io.IOException;
+
+public class Student{
+	public void showStudent()throws studentNotFound{
+		
+		try {
+			throw new  IOException();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	};
+
+	
+	
+	
+}

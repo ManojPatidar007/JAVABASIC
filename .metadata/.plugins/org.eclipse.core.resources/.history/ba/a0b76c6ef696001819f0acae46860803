@@ -1,0 +1,11 @@
+package com.mp.linkedList;
+
+import java.util.LinkedList;
+
+public class LinkList {
+	public static void main(String ar[]){
+		
+		LinkedList<Integer,Student> list=new LinkedList<>();
+	}
+
+}

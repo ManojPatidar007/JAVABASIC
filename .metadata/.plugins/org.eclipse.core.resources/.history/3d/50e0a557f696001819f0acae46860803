@@ -1,0 +1,9 @@
+package com.mp.linkedList;
+
+public class LinkList {
+	public static void main(String ar[]){
+		
+		LinkedList<Integer,Student> list=new LinkList<>();
+	}
+
+}

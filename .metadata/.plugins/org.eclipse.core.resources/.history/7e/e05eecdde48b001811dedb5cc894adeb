@@ -1,0 +1,14 @@
+package abcd;
+
+public class FindStudentById {
+	
+	StudentDao dao=new StudentDao();
+	
+	public boolean findStudentByName(){
+		
+		
+		return false;
+		
+	} 
+
+}

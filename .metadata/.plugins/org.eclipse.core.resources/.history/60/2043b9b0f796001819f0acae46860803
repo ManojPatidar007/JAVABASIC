@@ -1,0 +1,18 @@
+package com.mp.linkedList;
+import com.mp.*;
+import com.mp.dao.Student;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class LinkList {
+	public static void main(String ar[]){
+		
+		List<Student> list=new LinkedList<>();
+		Student s=new Student(101,"hello","abc");
+		for(Student t:list){
+			System.out.println("ID="+this.getId()+" name="+this.getName()+" clg="+this.getClg());
+		}
+	}
+
+}

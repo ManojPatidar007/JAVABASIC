@@ -1,0 +1,12 @@
+package abcd;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		StudentDao dao=new StudentDao();
+		// TODO Auto-generated method stub
+
+	}
+
+}

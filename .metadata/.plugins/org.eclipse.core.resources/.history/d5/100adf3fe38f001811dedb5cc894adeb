@@ -1,0 +1,16 @@
+package com.mp;
+
+import java.io.IOException;
+
+public class App {
+	public static void main(String ar[]) throws  IOException {
+Student s=new Student();
+studentNotFound f=new studentNotFound();
+//s.showStudent(13);
+try{
+s.showStudent(13);}
+		catch(Exception e){e.printStackTrace();}
+System.out.println("hello");
+
+}
+}

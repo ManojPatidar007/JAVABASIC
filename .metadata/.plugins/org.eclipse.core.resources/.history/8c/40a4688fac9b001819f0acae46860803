@@ -1,0 +1,52 @@
+package com.mp.tree;
+
+public class TreeImpl {
+	Node root;
+
+	class Node{
+		Node left;
+		Node right;
+		int data;
+		public Node(){}
+		public Node(int data){
+			this.left=null;
+			this.right=null
+					;
+			this.data=data;
+		}
+	}
+
+	public void add(int data){
+		insert(root, data);
+
+	}
+	private Node insert(Node root,int data){
+		if(root==null){
+			Node node=new Node(data);
+			root=node;
+			return root;
+		}
+		if(root.data<data){
+			root.right=insert(root.right,data);
+		}
+		else if(root.data>data){
+			root.left=insert(root.left,data);
+
+		}
+		else return root;
+
+
+		return root;
+	}
+
+	public void show(){
+		printTree(root);
+	}
+	private void printTree(Node root2) {
+		if(root==null){
+			return;
+		}	
+
+	}
+
+}

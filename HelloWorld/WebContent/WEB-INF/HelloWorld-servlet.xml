@@ -1,0 +1,14 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			<beans>
+			<!-- handler mapping using bean name url handler mapping -->
+			<bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"></bean>
+			<!-- controller -->
+			<bean name="/hello.ds" class="HelloController"></bean>
+			<bean name="/soft.ds" class="SoftController"></bean>
+			<!-- view resolver -->
+			<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+			<property name="prefix" value="/"></property>
+			<property name="suffix" value=".jsp"></property>
+			</bean>
+			</beans>

@@ -1,0 +1,7 @@
+package abcd;
+
+enum StudentException extends Exception{
+	STUSENT_NOT_FOUND,
+	STUDENT_OUT_OF_ORDER;
+
+}

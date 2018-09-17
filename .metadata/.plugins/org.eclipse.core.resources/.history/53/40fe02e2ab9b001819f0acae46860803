@@ -1,0 +1,26 @@
+package com.mp.tree;
+
+public class TreeImpl {
+	Node root;
+
+	class Node{
+		Node left;
+		Node right;
+		int data;
+		public Node(){}
+		public Node(int data){
+			this.left=null;
+			this.right=null
+					;
+			this.data=data;
+		}
+	}
+	
+	public void add(int data){
+		insert(root, data);
+		
+	}
+	private Node insert(Node root,int data){
+		return root;}
+
+}

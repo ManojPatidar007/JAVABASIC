@@ -1,0 +1,13 @@
+package com.mp;
+
+public class Student{
+	public void showStudent()throws studentNotFound{
+		
+		throw new  NullPointerException();
+		
+	};
+
+	
+	
+	
+}

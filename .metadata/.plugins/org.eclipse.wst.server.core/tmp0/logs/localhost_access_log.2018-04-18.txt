@@ -1,0 +1,4 @@
+127.0.0.1 - - [18/Apr/2018:15:32:32 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [18/Apr/2018:15:32:33 +0530] "GET /HelloWorld/ HTTP/1.1" 200 469
+127.0.0.1 - - [18/Apr/2018:15:32:39 +0530] "GET /HelloWorld/hello.ds?name=as&pass=sad HTTP/1.1" 200 8
+127.0.0.1 - - [18/Apr/2018:15:32:45 +0530] "GET /HelloWorld/soft.ds?name=asd HTTP/1.1" 200 262

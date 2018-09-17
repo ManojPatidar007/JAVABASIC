@@ -1,0 +1,44 @@
+package abcd;
+
+public class StudentDao {
+	String name;
+	int id;
+	int sem;
+	int marks;
+	String cld;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getSem() {
+		return sem;
+	}
+	public void setSem(int sem) {
+		this.sem = sem;
+	}
+	public int getMarks() {
+		return marks;
+	}
+	public void setMarks(int marks) {
+		this.marks = marks;
+	}
+	public String getCld() {
+		return cld;
+	}
+	public void setCld(String cld) {
+		this.cld = cld;
+	}
+	@Override
+	public String toString() {
+		return "StudentDao [name=" + name + ", id=" + id + ", sem=" + sem + ", marks=" + marks + ", cld=" + cld + "]";
+	}
+
+}

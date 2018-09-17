@@ -1,0 +1,9 @@
+package com.mp;
+
+import java.io.IOException;
+
+public class Clg {
+	public String getStudent() throws IOException{
+		return null;}
+
+}

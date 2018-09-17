@@ -1,0 +1,13 @@
+package com.mp.linkedList;
+import com.mp.*;
+import com.mp.dao.Student;
+
+import java.util.LinkedList;
+
+public class LinkList {
+	public static void main(String ar[]){
+		
+		List<Integer,Student> list=new LinkedList<>();
+	}
+
+}

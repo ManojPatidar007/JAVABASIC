@@ -1,0 +1,17 @@
+package com.mp.arraylist;
+
+import java.util.ArrayList;
+
+import com.mp.dao.Student;
+
+public class ArrayListPro {
+	ArrayList<Student> list=new ArrayList<>();
+	public ArrayListPro() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public ArrayListPro(int id,String name,String clg){
+		
+	}
+
+}

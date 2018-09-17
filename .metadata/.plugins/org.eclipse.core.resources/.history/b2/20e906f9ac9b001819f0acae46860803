@@ -1,0 +1,13 @@
+package com.mp;
+
+import com.mp.tree.TreeImpl;
+
+public class App {
+	
+	public static void main(String[] args) {
+	
+TreeImpl t=new TreeImpl();
+
+	}
+
+}

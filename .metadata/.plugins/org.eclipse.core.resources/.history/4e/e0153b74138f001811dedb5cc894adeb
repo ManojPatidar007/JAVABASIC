@@ -1,0 +1,23 @@
+package com.mp;
+
+import java.io.IOException;
+import java.sql.SQLException;
+
+public class Student extends Clg{
+	public void showStudent(String a)throws studentNotFound, IOException{
+		
+		
+			throw new  NullPointerException();
+		
+		
+	};
+	public String getStudent()throws IOException,SQLException,studentNotFound,Exception{
+		//return null;
+		throw new NullPointerException();
+		
+	}
+
+	
+	
+	
+}

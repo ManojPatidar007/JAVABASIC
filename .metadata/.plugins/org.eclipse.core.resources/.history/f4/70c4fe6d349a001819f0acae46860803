@@ -1,0 +1,25 @@
+package com.mp;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+import com.mp.dao.Student;
+
+public class HashcodeEqual {
+
+	public static void main(String[] args) {
+HashcodeEqual E=new HashcodeEqual();
+HashcodeEqual E1=new HashcodeEqual();
+		ArrayList<Integer> list1=new ArrayList<>();
+		List<String> list3=new LinkedList<>();
+		System.out.println(list1.hashCode());
+		System.out.println(list3.hashCode());
+		System.out.println(list1.equals(list3));
+		
+		System.out.println(E1.hashCode());
+		System.out.println(E.hashCode());
+
+	}
+
+}

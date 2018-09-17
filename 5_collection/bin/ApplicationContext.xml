@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	<bean id="student" class="com.mp.student">
+	<property name="name" value="Hello"></property>
+	<property name="name">
+	<list>
+	<value>adaa</value>
+	</list>
+	</property>
+	</bean>
+	<bean id="controller" class="com.comtroller.Controller">
+	<constructor-arg >
+	<ref bean="student"/>
+	</constructor-arg>
+	</bean>
+	</beans>
